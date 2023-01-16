@@ -135,6 +135,9 @@ body{
 }
 
 /* top-section */
+.main-section{
+   padding: 0 50px;
+}
 
 .section{
     padding: 10px;
@@ -143,7 +146,7 @@ body{
 .category-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 15px;
@@ -155,6 +158,7 @@ body{
     text-decoration: none;
     align-items: center;
     color: black;
+    margin-left: 60px;
 }
 
 .cat-name{
@@ -163,16 +167,88 @@ body{
     margin-top: 4px;
 }
 
+
+/* deals of the day section */
+
+.deals-of-day{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deals-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.deals{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.timer{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.time{
+    margin-left: 7px;
+    opacity: .5;
+    font-size: 16px;
+}
+
+.viewbtn{
+    background-color: #2874f0;
+    color: white;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 9px 22px;
+    text-transform: uppercase;
+}
+
+
 /* items-section */
+
+.items-and-ad{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
 
 .items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
+    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 15px;
+    overflow: auto;
+    height: 40vh;
+    padding: 8px;
+    width: 100%;
+}
 
+.ad{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.ad-img{
+    height: 40vh;
 }
 
 .item{
@@ -181,6 +257,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 8px;
 }
 
 .item-img-class{
@@ -210,6 +287,92 @@ body{
 }
 
 .item-special-thing{
+    opacity: .6;
+    padding-top: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* particular categoty section */
+
+.category{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.shop-now{
+    opacity: .5;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.p-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: auto;
+    height: 40vh;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.p-item{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.p-item-img-class{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-item-name{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.p-item-price{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+}
+
+.p-item-special-thing{
     opacity: .6;
     padding-top: 7px;
     white-space: nowrap;
