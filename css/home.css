@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;  
+    background-color: #f1f3f6;
 }
 
 .navbar {
@@ -136,11 +137,11 @@ body{
 
 /* top-section */
 .main-section{
-   padding: 0 50px;
+   padding: 20px 70px;
 }
 
 .section{
-    padding: 10px;
+
 }
 
 .category-section{
@@ -148,7 +149,7 @@ body{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
     padding: 15px;
 }
 
@@ -161,6 +162,10 @@ body{
     margin-left: 60px;
 }
 
+.cat:hover{
+    color: #2874f0;
+}
+
 .cat-name{
     font-weight: 500;
     font-size: 14px;
@@ -170,10 +175,21 @@ body{
 
 /* deals of the day section */
 
+.deals-and-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.items-and-ad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .deals-of-day{
-    margin-top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 12px;
+    background-color: white;
+    padding: 8px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -222,33 +238,29 @@ body{
 
 /* items-section */
 
-.items-and-ad{
-    display: flex;
-    flex-direction: row;
-    margin-top: 3px;
-}
-
 .items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    overflow: auto;
-    height: 40vh;
+    background-color: white;
     padding: 8px;
     width: 100%;
+    margin-top: 3px;
+    overflow: hidden;
 }
 
 .ad{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
     display: flex;
     align-items: center;
-    padding: 8px;
+    padding: 4px;
+    margin-left: 20px;
 }
 
 .ad-img{
-    height: 40vh;
+    height: 100%;
+    width: 100%;
 }
 
 .item{
@@ -266,6 +278,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.item-img{
+    transition: 0.1s all ease-in-out;
+}
+
+.item-img:hover{
+    transform: scale(1.1);
 }
 
 .item-name{
@@ -298,7 +318,7 @@ body{
 
 .category{
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
     padding: 12px;
     display: flex;
     flex-direction: row;
@@ -330,9 +350,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    overflow: auto;
-    height: 40vh;
+    background-color: white;
+    overflow: hidden;
     width: 100%;
     margin-top: 3px;
 }
@@ -352,6 +371,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.p-item-img{
+    transition: 0.1s all ease-in-out;
+}
+
+.p-item-img:hover{
+    transform: scale(1.1);
 }
 
 .p-item-name{
