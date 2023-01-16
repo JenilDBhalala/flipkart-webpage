@@ -140,10 +140,6 @@ body{
    padding: 20px 70px;
 }
 
-.section{
-
-}
-
 .category-section{
     display: flex;
     flex-direction: row;
@@ -174,10 +170,10 @@ body{
 
 
 /* deals of the day section */
-
 .deals-and-items{
     display: flex;
     flex-direction: column;
+    width: 85%;
 }
 
 .items-and-ad{
@@ -236,8 +232,7 @@ body{
 }
 
 
-/* items-section */
-
+/* items and ad section */
 .items{
     display: flex;
     flex-direction: row;
@@ -256,6 +251,7 @@ body{
     align-items: center;
     padding: 4px;
     margin-left: 20px;
+    width: 15%;
 }
 
 .ad-img{
@@ -314,8 +310,8 @@ body{
     text-overflow: ellipsis;
 }
 
-/* particular categoty section */
 
+/* particular categoty section */
 .category{
     margin-top: 20px;
     background-color: white;
@@ -405,4 +401,16 @@ body{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.left-arrow{
+    width: 47px;
+    height: 104px;
+    background-color: hsla(0,0%,100%,.98);
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
 }
