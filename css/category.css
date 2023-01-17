@@ -1,0 +1,37 @@
+/* top-section */
+.main-section {
+    padding: 20px 70px;
+}
+
+.category-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 15px;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    margin-left: 60px;
+}
+
+.cat:hover {
+    color: #2874f0;
+}
+
+.cat-img {
+    height: 64px;
+    width: 64px;
+}
+
+.cat-name {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 4px;
+}
