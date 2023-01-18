@@ -37,6 +37,7 @@
     overflow: auto;
     width: 100%;
     margin-top: 3px;
+    padding: 8px 0;
 }
 
 .p-item {
@@ -88,6 +89,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 14px;
 }
 
 /* .left-arrow {
